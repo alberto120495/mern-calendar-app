@@ -72,6 +72,8 @@ body {
   padding: 25px;
   position: fixed;
   right: 25px;
+  z-index: 100;
+  cursor: pointer;
 }
 .fab-danger {
   bottom: 25px;
@@ -79,4 +81,6 @@ body {
   font-size: 30px;
   position: fixed;
   left: 25px;
+  z-index: 100;
+  cursor: pointer;
 }
