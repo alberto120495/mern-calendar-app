@@ -7,8 +7,8 @@ import Swal from "sweetalert2";
 function LoginScreen() {
   const dispatch = useDispatch();
   const [formLoginValues, handleLoginInputChange] = useForm({
-    lEmail: "abdiel@gmail.com",
-    lPassword: "123456",
+    lEmail: "",
+    lPassword: "",
   });
 
   const { lEmail, lPassword } = formLoginValues;

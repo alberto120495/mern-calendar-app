@@ -37,7 +37,7 @@ export const startRegister = (email, password, name) => {
   };
 };
 
-const login = (user) => {
+export const login = (user) => {
   return {
     type: types.authLogin,
     payload: user,
